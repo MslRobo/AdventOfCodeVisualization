@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.app-header a:link, .app-header a:hover, .app-header a:visited, .app-header a:active {
+  color:#29d308;
+  text-shadow: #29d308 0 0 20px;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a:visited {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:link {
+  text-decoration: none;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul.calender li {
+  padding: 10px;
+}
+
+.App {
+  background-color: rgb(7, 7, 7);
+  min-height: 100vh;
+  font-size: calc(0.5px + 2vmin);
+  color: white;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(7, 7, 7);
+  padding: 0 20px 0 20px;
+  color:#29d308;
+  text-shadow: #29d308 0 0 20px;
+  top: 0;
+  left: 0;
+}
+
+.year {
+  margin-top: 50px;
+  font-size: calc(0.1px + 2vmin);
+}
+.num {
+  margin-top: 0;
+  font-size: calc(0.1px + 2vmin);
+}
+
+ul {
+  font-size: calc(10px + 1vmin);
+  list-style-type: none;
+}
+¨
+.calender li{
+  margin: 10px;
+}
+
+.visBox {
+  position: absolute;
+  right: 100px;
+  top: 200px;
+  width: 1000px;
+  height: 800px;
+  background-color: rgb(5, 5, 5);
+  padding: 0 20px 0 20px;
+  border: 2px solid;
+}
+
+.visBoxI p{
+  font-size: calc(5px + 1vmin);
+}
+
+.visBoxView {
+  top: 20px;
+  left: 30px;
+  width: 960px;
+  height: 715px;
+  padding: 5px 20px;
+  word-wrap: break-word
+}
+
+table {
+  margin-right: 200px;
+}
+
+table thead th {
+  padding-left: 50px;
+}
+
+.intro {
+  margin-top: 70px;
+  margin-left: 50px;
+  width: 700px;
+}
+
+.cmdHref a:hover {
+  text-decoration: underline;
+}
+
+.yTable thead th a:hover {
+  text-decoration: underline;
+}
+
+.calender li a:hover {
+  text-decoration: underline;
+}
+
+.midS6Running {
+  color: red;
+}
+
+.midS6Done {
+  color:#29d308;
 }
