@@ -41,7 +41,7 @@ function Day62022Solutions() {
                     console.log(lenght)
                     return subStrC.current
                 }
-                await wait(1000)
+                await wait(10)
             }
         }
         subStr = test()
@@ -52,8 +52,8 @@ function Day62022Solutions() {
         <div>
             {/* <TextFunc /> */}
             {retStr}
-            <div></div>
-            <p>The amount of chars before start-of-packet marker: {lengthC.current}</p>
+            <div className='s'></div>
+            <p className='s6AnsTxt'>The amount of chars before start-of-packet marker: {lengthC.current}</p>
             <p>{str.length}</p>
         </div>
     )

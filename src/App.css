@@ -57,10 +57,14 @@ ul {
 
 .visBox {
   position: absolute;
-  right: 100px;
-  top: 200px;
-  width: 1000px;
-  height: 800px;
+  /* right: 100px; */
+  right: calc(1px + 9vmin);
+  /* top: 200px; */
+  top: calc(0.5px + 17vmin);;
+  /* width: 1000px; */
+  width: calc(2.5px + 91vmin);
+  /* height: 800px; */
+  height: calc(0.5px + 73vmin);
   background-color: rgb(5, 5, 5);
   padding: 0 20px 0 20px;
   border: 2px solid;
@@ -71,12 +75,20 @@ ul {
 }
 
 .visBoxView {
-  top: 20px;
-  left: 30px;
-  width: 960px;
-  height: 715px;
+  position: relative;
+  /* top: 20px; */
+  top: calc(0.5px + 0.01vmin);
+  /* left: 30px; */
+  left: calc(0.5px + 0.005vmin);
+  /* width: 960px; */
+  /* width: calc(0.5px + 87.5vmin); */
+  width: 96%;
+  /* height: 715px; */
+  height: calc(0.5px + 65.3vmin);
+  height: calc(0.5px + 65.3vmin);
+  /* height: calc(0.5px + 65.3vmin); */
   padding: 5px 20px;
-  word-wrap: break-word
+  word-wrap: break-word;
 }
 
 table {
@@ -90,7 +102,8 @@ table thead th {
 .intro {
   margin-top: 70px;
   margin-left: 50px;
-  width: 700px;
+  /* width: 700px; */
+  width: calc(0.5px + 64vmin);
 }
 
 .cmdHref a:hover {
@@ -111,4 +124,9 @@ table thead th {
 
 .midS6Done {
   color:#29d308;
+}
+
+.s6AnsTxt {
+  font-weight: bold;
+  font-size: calc(2px + 4vmin);
 }
