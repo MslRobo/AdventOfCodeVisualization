@@ -2,4 +2,4 @@
 
 This is a web application to visualize different AoC tasks. Original solutions were writen in python and converted over to Reactjs for this project.
 
-Currently in developing whenever I have time
+Work in Progress
